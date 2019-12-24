@@ -15,7 +15,7 @@ Android圆角的进度条控件，支持环形与线型
   2、添加依赖：
 
 	dependencies {
-	        implementation 'com.github.cjfu:MSeekBar:Tag'
+	        implementation 'com.github.cjfu:MSeekBar:1.0.0'
 	}
 
 ## 效果图：
