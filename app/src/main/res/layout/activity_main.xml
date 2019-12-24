@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.mseekbar.MySeekBar
+        android:id="@+id/msb1"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:paddingLeft="32dp"
+        android:paddingTop="8dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/msb2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:msb_max="100"
+        app:msb_progress="30"
+        app:msb_progress_color="@color/colorAccent" />
+
+    <com.example.mseekbar.MySeekBar
+        android:id="@+id/msb2"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="8dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/msb1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:msb_gradient="true"
+        app:msb_gradient_end_color="@android:color/black"
+        app:msb_gradient_start_color="@android:color/white"
+        app:msb_max="100"
+        app:msb_progress="30" />
+
+    <com.example.mseekbar.MySeekBar
+        android:id="@+id/msb3"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:paddingLeft="16dp"
+        android:paddingTop="5dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/msb2"
+        app:layout_constraintTop_toBottomOf="@+id/msb1"
+        app:msb_gradient="true"
+        app:msb_gradient_end_color="@android:color/black"
+        app:msb_gradient_orientation="vertical"
+        app:msb_gradient_start_color="@android:color/white"
+        app:msb_max="100"
+        app:msb_progress="30"
+        app:msb_progress_color="@color/colorAccent" />
+
+    <com.example.mseekbar.MySeekBar
+        android:id="@+id/msb4"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:paddingLeft="32dp"
+        android:paddingTop="5dp"
+        android:paddingRight="32dp"
+        android:paddingBottom="5dp"
+        app:layout_constraintLeft_toRightOf="@+id/msb1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msb1"
+        app:msb_gradient="true"
+        app:msb_gradient_end_color="@android:color/black"
+        app:msb_gradient_orientation="horizontal"
+        app:msb_gradient_start_color="@android:color/white"
+        app:msb_max="100"
+        app:msb_progress="30" />
+
+    <com.example.mseekbar.MySeekBar
+        android:id="@+id/msb5"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/msb2"
+        app:layout_constraintTop_toBottomOf="@+id/msb3"
+        app:msb_mode="circle"
+        app:msb_progress="30" />
+
+    <com.example.mseekbar.MySeekBar
+        android:id="@+id/msb6"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/msb1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msb3"
+        app:msb_gradient="true"
+        app:msb_gradient_end_color="@android:color/black"
+        app:msb_gradient_start_color="@android:color/white"
+        app:msb_mode="circle"
+        app:msb_progress="30" />
+
+    <com.example.mseekbar.MySeekBar
+        android:id="@+id/msb7"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/msb2"
+        app:layout_constraintTop_toBottomOf="@+id/msb5"
+        app:msb_circle_end="405"
+        app:msb_circle_start="135"
+        app:msb_circle_width="10dp"
+        app:msb_mode="circle"
+        app:msb_progress="30" />
+
+    <com.example.mseekbar.MySeekBar
+        android:id="@+id/msb8"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/msb1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msb5"
+        app:msb_circle_end="405"
+        app:msb_circle_start="135"
+        app:msb_circle_width="10dp"
+        app:msb_gradient="true"
+        app:msb_gradient_end_color="@android:color/black"
+        app:msb_gradient_start_color="@android:color/white"
+        app:msb_mode="circle"
+        app:msb_progress="30" />
+
+    <com.example.mseekbar.MySeekBar
+        android:id="@+id/msb9"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/msb2"
+        app:layout_constraintTop_toBottomOf="@+id/msb7"
+        app:msb_circle_end="180"
+        app:msb_circle_start="0"
+        app:msb_circle_width="20dp"
+        app:msb_gradient="true"
+        app:msb_gradient_end_color="@android:color/black"
+        app:msb_gradient_orientation="vertical"
+        app:msb_gradient_start_color="@android:color/white"
+        app:msb_mode="circle"
+        app:msb_progress="30" />
+
+    <com.example.mseekbar.MySeekBar
+        android:id="@+id/msb10"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintLeft_toRightOf="@+id/msb1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msb7"
+        app:msb_circle_end="180"
+        app:msb_circle_width="20dp"
+        app:msb_gradient="true"
+        app:msb_gradient_end_color="@android:color/black"
+        app:msb_gradient_orientation="horizontal"
+        app:msb_gradient_start_color="@android:color/white"
+        app:msb_mode="circle"
+        app:msb_progress="30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拖动下方进度条查看效果"
+        app:layout_constraintBottom_toTopOf="@+id/seekBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="30"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/msb10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

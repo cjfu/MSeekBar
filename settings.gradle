@@ -1,0 +1,2 @@
+include ':app', ':mseekbar'
+rootProject.name='MSeekBarTest'
