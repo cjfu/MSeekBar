@@ -1,9 +1,8 @@
 # MSeekBar
 Android圆角的进度条控件，支持环形与线型
+## 依赖方法：
 
 [![依赖方法](https://jitpack.io/v/cjfu/MSeekBar.svg)](https://jitpack.io/#cjfu/MSeekBar)
-
-## 依赖方法：
 
 1、将其添加到项目的 build.gradle中:
 
